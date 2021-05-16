@@ -1,5 +1,4 @@
-# MetalScroller
-Metal with OpenGL
+# Mixing Metal with UIScrollView
 
 About mixing `UIScrollView` with `MTKView`. This is the trick I learned from [WWDC 2012 Enhancing User Experience with Scroll Views](https://developer.apple.com/videos/play/wwdc2012/223/) session that talks about mixing `UIScrollView` with OpenGL. The idea is to simply use the `MTKView` to render whatever metal content we would like and then use the `UIScrollView` to provide with the scrolling effect. The benefit of using `UIScrollView` is that we get exactly the same dragging and bounciness behavior that iOS users expect. 
 
